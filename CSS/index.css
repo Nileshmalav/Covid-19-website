@@ -1,0 +1,12 @@
+#home{
+    background-color: rgb(133, 123, 34);
+}
+/* section */
+.section{
+    border:2px solid red;
+    background-color:skyblue;
+    /* height:500px; */
+    /* margin:10px; */
+}
+
+/* section */
