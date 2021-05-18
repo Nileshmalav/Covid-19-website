@@ -17,6 +17,9 @@
 
 
 /* section  */
+body{
+    background-color:rgb(162, 233, 162);
+}
 .lmsection{
     border: 2px solid grey;
     text-align: center;
@@ -26,7 +29,7 @@
     align-items:center;
     flex-direction: column;
 }
-@media (min-width:1100px) {
+@media (min-width:1150px) {
     .lmsection {
         display: grid;
         grid-template-areas:
