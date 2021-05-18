@@ -1,6 +1,6 @@
 /* navigation */
 #plagam{
-    background-color: rgb(15, 160, 15);
+    background-color: rgb(199, 90, 0);
 }
 #pplagam{
     background-color: rgb(15, 160, 15);
@@ -8,13 +8,7 @@
 #pplagam:hover{
     background-color: red;
 }
-#plagam:hover{
-    background-color: green;
-}
-#more{
-    background-color: rgb(199, 90, 0);
-    
-}
+
 /* navigation */
 
 *{
@@ -32,9 +26,43 @@
     align-items:center;
     flex-direction: column;
 }
+@media (min-width:1100px) {
+    .lmsection {
+        display: grid;
+        grid-template-areas:
+            'secimg lmh1 lmh1'
+            'secimg lmh1 lmh1'
+            'secimg lmbtn lmbtn'
+            'secimg lmbtn lmbtn';
+
+        width: 100%;
+        border: 2px solid gray;
+        border-left: 0px;
+        border-right: 0px;
+        padding-left:0px;
+        padding-right:0px;
+
+    }
+}
+.lmh1 {
+    grid-area: lmh1;
+}
+
+.secimg {
+    grid-area: secimg;
+}
+
+.lmbtn {
+    grid-area: lmbtn;
+}
+
+
+
+
+
 .lmsection img{
     /* margin: 30px; */
-    padding:10%;
+    padding:5% 10%;
     /* height:90%; */
     width: 75%;
     /* width:auto; */

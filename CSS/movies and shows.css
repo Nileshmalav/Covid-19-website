@@ -1,115 +1,165 @@
-*{
+* {
     text-align: center;
     /* font-family: 'Pattaya', sans-serif; */
 }
 
 /* navigation */
-#movsho{
+#movsho {
     background-color: rgb(15, 160, 15);
 }
-#pmovsho{
+
+#pmovsho {
     background-color: rgb(15, 160, 15);
 }
-#pmovsho:hover{
+
+#pmovsho:hover {
     background-color: red;
 }
-#movsho:hover{
+
+#movsho:hover {
     background-color: green;
 }
-#more{
+
+#more {
     background-color: rgb(199, 90, 0);
-    
+
 }
 
 /* navigation */
 
 
 /* section  */
-.lmsection{
+.lmsection {
     border: 2px solid grey;
     text-align: center;
-    padding:20px;
+    padding: 20px;
     flex-wrap: wrap;
-    display:flex;
-    align-items:center;
+    /* display: flex; */
+    align-items: center;
     flex-direction: column;
     font-family: 'Pattaya', sans-serif;
 }
-.lmsection img{
+
+@media (min-width:1100px) {
+    .lmsection {
+        display: grid;
+        grid-template-areas:
+            'secimg lmh1 lmh1'
+            'secimg lmh1 lmh1'
+            'secimg lmh1 lmh1'
+            'secimg lmbtn lmbtn'
+            'secimg lmbtn lmbtn'
+            'secimg lmbtn lmbtn';
+
+        width: 100%;
+        border: 2px solid gray;
+        border-left: 0px;
+        border-right: 0px;
+        padding-left:0px;
+        padding-right:0px;
+
+    }
+}
+.lmh1 {
+    grid-area: lmh1;
+}
+
+.secimg {
+    grid-area: secimg;
+}
+
+.lmbtn {
+    grid-area: lmbtn;
+}
+.lmsection img {
     /* margin: 30px; */
-    padding:10%;
+    padding: 10%;
     /* height:33%; */
     width: 75%;
     /* width:auto; */
 }
-.lmbtn{
+
+.lmbtn {
     padding: 5px 20px;
-    margin:10px auto;
+    margin: 10px auto;
     text-align: center;
     text-align: center;
     border-radius: 10px;
     /* font-size: 30px; */
-    background-color:red;
+    background-color: red;
     cursor: pointer;
-    
-}
-.lmbtn a{
-    font-size:35px;
-    text-decoration:none;
-    color:white;
 
-    
 }
 
-#lmsection1 .lmbtn{
-    background-color:blue;
+.lmbtn a {
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+
+
 }
-#lmsection2 .lmbtn{
-    background-color:red;
+
+#lmsection1 .lmbtn {
+    background-color: blue;
 }
-#lmsection3 .lmbtn{
-    background-color:red
+
+#lmsection2 .lmbtn {
+    background-color: red;
 }
-#lmsection4 .lmbtn{
-    background-color:rgb(0, 153, 255)
+
+#lmsection3 .lmbtn {
+    background-color: red
 }
-#lmsection5 .lmbtn{
-    background-color:rgb(46, 4, 161)
+
+#lmsection4 .lmbtn {
+    background-color: rgb(0, 153, 255)
 }
-#lmsection6 .lmbtn{
-    background-color:red
+
+#lmsection5 .lmbtn {
+    background-color: rgb(46, 4, 161)
 }
-#lmsection7 .lmbtn{
-    background-color:rgb(0, 153, 255)
+
+#lmsection6 .lmbtn {
+    background-color: red
 }
-#lmsection8 .lmbtn{
-    background-color:green
+
+#lmsection7 .lmbtn {
+    background-color: rgb(0, 153, 255)
 }
-#lmsection9 .lmbtn{
-    background-color:blue
+
+#lmsection8 .lmbtn {
+    background-color: green
 }
-.lmbtn a:hover{
-    color:rgb(243, 239, 3);
-    font-size:40px;
+
+#lmsection9 .lmbtn {
+    background-color: blue
+}
+
+.lmbtn a:hover {
+    color: rgb(243, 239, 3);
+    font-size: 40px;
 }
 
 
-.lmh1{
-    font-size:2.8rem;
+.lmh1 {
+    font-size: 2.8rem;
     font-family: 'Pattaya', sans-serif;
 }
-.lmh0{
-    font-size:3rem;
-    padding:15px 5px;
+
+.lmh0 {
+    font-size: 3rem;
+    padding: 15px 5px;
     text-align: center;
-    color:rgb(153, 0, 255);
+    color: rgb(153, 0, 255);
     font-family: 'Pattaya', sans-serif;
 }
-.lmh-1{
-    font-size:3.2rem;
-    padding:15px 5px;
+
+.lmh-1 {
+    font-size: 3.2rem;
+    padding: 15px 5px;
     text-align: center;
-    color:rgb(1, 1, 63);
+    color: rgb(1, 1, 63);
     font-family: 'Pattaya', sans-serif;
 }
+
 /* section  */

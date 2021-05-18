@@ -116,10 +116,6 @@ body {
 
 /* Add a red background color to navbar links on hover */
 
-#home:hover{
-    background-color: red;
-    /* z-index:5; */
-}
 .navitem:hover,
 .navbar a:hover,
 .dropdown:hover .dropbtn {
