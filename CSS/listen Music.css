@@ -36,10 +36,11 @@
     display: grid;
 } */
 
-body{
-    background-color:rgb(162, 233, 162);
+body {
+    background-color: rgb(162, 233, 162);
 
 }
+
 .lmsection {
 
     text-align: center;
@@ -48,9 +49,14 @@ body{
     /* display: flex; */
     align-items: center;
     flex-direction: column;
+    border: 2px solid gray;
 }
 
 @media (min-width:1150px) {
+    body {
+        background-color: rgb(162, 233, 162);
+    }
+
     .lmsection {
         display: grid;
         grid-template-areas:

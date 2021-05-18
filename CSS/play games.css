@@ -30,6 +30,9 @@ body{
     flex-direction: column;
 }
 @media (min-width:1150px) {
+    body{
+        background-color:rgb(162, 233, 162);
+    }
     .lmsection {
         display: grid;
         grid-template-areas:
