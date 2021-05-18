@@ -1,0 +1,15 @@
+#home{
+    background-color: rgb(199, 90, 0);
+}
+#phome{
+    background-color: rgb(15, 160, 15);
+}
+/* section */
+.section{
+    border:2px solid red;
+    background-color:skyblue;
+    /* height:500px; */
+    /* margin:10px; */
+}
+
+/* section */
