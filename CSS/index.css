@@ -67,6 +67,7 @@
     margin: 40px 20px;
     padding: 5px 10px;
 }
+
 .sec1btn:hover {
     font-size: 1.5rem;
     background-color: rgba(0, 0, 255, 0.76);
@@ -82,9 +83,10 @@
 
 .sec1p {
     font-size: 1.5rem;
-    padding:10px;
+    padding: 10px;
     /* text-align:center; */
     float: left;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 
@@ -234,6 +236,15 @@
     color: rgb(67, 2, 128);
 }
 
+#section2 a {
+    text-decoration: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#section2 a:hover {
+    text-decoration: underline;
+}
+
 .sec2div {
     display: flex;
     flex-wrap: wrap;
@@ -316,14 +327,15 @@
 }
 
 #section3 div ul {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     /* text-align:right; */
     /* padding-left:10%; */
 
 }
 
 #section3 div ul li {
-    padding: 5px;
+    padding: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 @media(max-width:1000px) {
@@ -344,16 +356,205 @@
 
     #section3 div ul li {
         padding: 5px;
-        margin-left: 10%;
+        margin-left: 25px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+    #section3 div {
+        /* margin-top: 5px; */
+        padding: 20px;
     }
 }
 
 /* section3 */
+/* section4 */
+#section4 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
 
+#symptoms {
+    margin: 0px 30px;
+    display: grid;
+    grid-template-areas:
+        'sec4ul1 sec4ul1 sec4ul3 sec4ul3'
+        'sec4ul1 sec4ul1 sec4ul3 sec4ul3'
+        'sec4ul2 sec4ul2 sec4ul3 sec4ul3'
+        'sec4ul2 sec4ul2 sec4ul3 sec4ul3';
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
 
+#sec4image {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
 
+#section4>h1 {
+    text-align: center;
+    color: rgb(67, 2, 128);
+    font-size: 3rem;
+}
 
+#section4 ul h1 {
+    font-size: 2.2rem;
+    color: blueviolet;
+}
 
+#section4 ul li {
+    font-size: 1.7rem;
+    margin-left: 10%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding: 10px;
 
+}
+
+.sec4ul1 {
+    grid-area: sec4ul1;
+}
+
+.sec4ul2 {
+    grid-area: sec4ul2;
+}
+
+.sec4ul3 {
+    grid-area: sec4ul3;
+}
+
+@media(max-width:1000px) {
+    #symptoms {
+        margin: 0px 30px;
+        display: flex;
+        flex-direction: column;
+
+        grid-gap: 10px;
+        align-items: stretch;
+        justify-content: space-around;
+    }
+
+    #sec4image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+    }
+    #sec4image>div{
+        padding: 20px;
+    }
+    #section4>h1 {
+        text-align: center;
+        color: rgb(67, 2, 128);
+        font-size: 2.5rem;
+    }
+}
+@media(max-width:300px){
+    #section4>h1 {
+        text-align: center;
+        color: rgb(67, 2, 128);
+        font-size: 2rem;
+    }
+}
+/* section4 */
+/* section5 */
+
+/* section5 */
+#section5 {}
+
+#section5>div {
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#section5>div>h1 {
+    padding-left: 5%;
+    color: rgb(67, 2, 128);
+}
+
+#section5 img {
+    margin: 0px 5%;
+    margin-right: 0px;
+    width: 50%;
+    /* height:300px; */
+    /* justify-content:space-around; */
+}
+
+#section5>box>img {
+    width: 100%;
+    margin: 0px;
+    z-index: -1;
+    opacity: 0.5;
+    height: 100%;
+    position: absolute;
+    /* bottom:0px; */
+}
+
+#section5 h2 {
+    font-size: 2.5rem;
+    padding: 10px 5%;
+    color: blue;
+}
+
+#section5 h3 {
+    padding: 10px 7%;
+    font-size: 2.0rem;
+    color: blueviolet;
+}
+
+#section5 p {
+    text-align: center;
+    font-size: 1.7rem;
+    padding: 10px 7%;
+    /* font-family: 'Yanone Kaffeesatz', sans-serif; */
+    font-family: 'Texturina', serif;
+}
+
+#section5 li {
+    /* padding:10px 5%; */
+    font-size: 1.7rem;
+    text-align: left;
+    margin-left: 10%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding: 10px;
+}
+
+@media(max-width:1000px) {
+    #section5>div {
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    #section5>div>h1 {
+        padding-left: 10px;
+        color: rgb(67, 2, 128);
+    }
+
+    #section5 img {
+        /* margin: 0px 5%; */
+        margin-right: 0px;
+        /* width:80%; */
+        /* height:300px; */
+        /* justify-content:space-around; */
+    }
+}
+
+@media(max-width:300px) {
+    #section5>div {
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
 
 /* section */
