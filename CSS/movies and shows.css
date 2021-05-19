@@ -29,9 +29,10 @@
 
 
 /* section  */
-body{
-    background-color:rgb(162, 233, 162);
+body {
+    background-color: rgb(162, 233, 162);
 }
+
 .lmsection {
     border: 2px solid grey;
     text-align: center;
@@ -44,9 +45,10 @@ body{
 }
 
 @media (min-width:1150px) {
-    body{
-        background-color:rgb(162, 233, 162);
+    body {
+        background-color: rgb(162, 233, 162);
     }
+
     .lmsection {
         display: grid;
         grid-template-areas:
@@ -61,11 +63,12 @@ body{
         border: 2px solid gray;
         border-left: 0px;
         border-right: 0px;
-        padding-left:0px;
-        padding-right:0px;
+        padding-left: 0px;
+        padding-right: 0px;
 
     }
 }
+
 .lmh1 {
     grid-area: lmh1;
 }
@@ -77,6 +80,7 @@ body{
 .lmbtn {
     grid-area: lmbtn;
 }
+
 .lmsection img {
     /* margin: 30px; */
     padding: 10%;

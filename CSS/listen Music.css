@@ -50,7 +50,6 @@ body {
     align-items: center;
     flex-direction: column;
     border: 2px solid gray;
-    background-color: rgb(162, 233, 162);
 }
 
 @media (min-width:1150px) {
@@ -60,7 +59,6 @@ body {
 
     .lmsection {
         display: grid;
-        background-color: rgb(162, 233, 162);
         grid-template-areas:
             'secimg lmh1 lmh1'
             'secimg lmh1 lmh1'

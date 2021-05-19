@@ -48,7 +48,7 @@ body {
 .dlogo {
     padding: 2px 20px;
     font-size: 35px;
-    color:rgb(170, 231, 226);
+    color:white;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -267,26 +267,70 @@ body {
 
 
 /* footer  */
-.footer {
+.footer{
     bottom: 0px;
     left: 0px;
-    background-color: blue;
-    height: 100px;
-    width: 100%;
+    background-color:blue;
+    /* height:100px; */
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:100%;
+    margin:auto;
+    align-items:center;
+    text-align:center;
     margin: auto;
-    text-align: center;
+    /* flex-wrap: wrap; */
+    /* text-align: center; */
 }
+.footerimg{
+    justify-content: space-between;
+    align-items:center;
+    padding:1% 5%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+}
+@media(max-width:450px){
+    .footerimg{
+        justify-content: space-between;
+        align-items:center;
+        padding:1% 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* height:50px; */
+    }
 
-.fdiv {
-    padding: 10px;
-    padding-bottom: 0px;
-    font-size: 25px;
+
+}
+.footerimg a{
+    text-decoration: none;
+    color:black;
+    align-items: center;
+}
+.footerimg img{
+    height:200px;
+
+}
+.footerimgtext{
+    /* width: 70%; */
+    font-size: 30px;
+
+}
+.fdiv{
+    /* border-top: 1px solid black; */
+    padding:10px;
+    font-size:25px;
+    /* width:100%; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     color: white;
-    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-bottom:0px;
 }
 
 
