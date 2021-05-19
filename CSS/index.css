@@ -14,6 +14,12 @@
     background-color: rgb(15, 160, 15);
 }
 
+
+
+body{
+    scroll-behavior: smooth;
+}
+
 /* section */
 .section {
     /* border:2px solid red; */
