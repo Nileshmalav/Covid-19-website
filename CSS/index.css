@@ -16,8 +16,31 @@
 
 
 
-body{
+body {
     scroll-behavior: smooth;
+    background-image:url("https://media.giphy.com/media/WNJATm9pwnjpjI1i0g/giphy.gif");
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    mask-repeat: repeat-y;
+    z-index:5;
+    
+}
+
+.content::before{
+    content:"";
+    background-image:url("https://media.giphy.com/media/WNJATm9pwnjpjI1i0g/giphy.gif");
+    background-repeat: repeat;
+}
+
+.background {
+    mask-repeat: repeat;
+    position: absolute;
+    background-repeat: repeat-y;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+
 }
 
 /* section */
@@ -52,7 +75,7 @@ body{
 #sec1img {
     z-index: -1;
     position: absolute;
-    opacity: 0.9;
+    opacity: 0.6;
     width: 100%;
     height: 500px;
 }
@@ -122,7 +145,7 @@ body{
     #sec1img {
         z-index: -1;
         position: absolute;
-        opacity: 0.7;
+        opacity: 0.6;
         width: 100%;
         height: 500px;
     }
@@ -184,7 +207,7 @@ body{
     #sec1img {
         z-index: -1;
         position: absolute;
-        opacity: 0.7;
+        opacity: 0.6;
         width: 100%;
         height: 500px;
     }
@@ -271,6 +294,7 @@ body{
 .sec2div img {
     width: 60px;
     height: 60px;
+    opacity:0.6;
 }
 
 .sec2num {
@@ -319,6 +343,7 @@ body{
 #section3 img {
     height: 800px;
     width: 50%;
+    opacity:0.7;
 }
 
 #section3 div {
@@ -365,6 +390,7 @@ body{
         margin-left: 25px;
         font-family: 'Yanone Kaffeesatz', sans-serif;
     }
+
     #section3 div {
         /* margin-top: 5px; */
         padding: 20px;
@@ -447,27 +473,33 @@ body{
         justify-content: space-around;
         text-align: center;
     }
-    #sec4image>div{
+
+    #sec4image>div {
         padding: 20px;
     }
+
     #section4>h1 {
         text-align: center;
         color: rgb(67, 2, 128);
         font-size: 2.5rem;
     }
 }
-@media(max-width:300px){
+
+@media(max-width:300px) {
     #section4>h1 {
         text-align: center;
         color: rgb(67, 2, 128);
         font-size: 2rem;
     }
 }
+
 /* section4 */
 /* section5 */
 
 /* section5 */
-#section5 {}
+/* #section5 {
+
+} */
 
 #section5>div {
     justify-content: space-around;
