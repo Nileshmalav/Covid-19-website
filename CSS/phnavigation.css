@@ -13,8 +13,7 @@
 /* body  */
 body {
     margin: 0px;
-    background-image: url("https://media.giphy.com/media/WNJATm9pwnjpjI1i0g/giphy.gif");
-    background-repeat: repeat;
+    
 }
 
 /* body  */
@@ -24,8 +23,6 @@ body {
 .dNavVisible::before {
     content: "";
     background-color: var(--navBackgroundColour);
-    /*background-image: url("https://media.giphy.com/media/WNJATm9pwnjpjI1i0g/giphy.gif");*/
-    /*background-repeat: repeat;*/
     height: 50px;
     width: 100%;
     position: fixed;
@@ -39,7 +36,7 @@ body {
     display: flex;
     /* flex-flow:row ; */
     
-    position: fixed;
+    position: sticky;
     top: 0px;
     width: 100%;
     height: 50px;
@@ -89,7 +86,7 @@ body {
     left: 0px;
     z-index: 10;
     background-color: var(--navBackgroundColour2);
-    background-image: url("https://media.giphy.com/media/WNJATm9pwnjpjI1i0g/giphy.gif");
+    /* background-image: url("https://media.giphy.com/media/WNJATm9pwnjpjI1i0g/giphy.gif"); */
     background-repeat: repeat;
 }
 
