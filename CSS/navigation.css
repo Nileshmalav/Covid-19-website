@@ -37,6 +37,7 @@ body {
 .dNavVisible {
     display: none;
     /* position:sticky; */
+    
 }
 .logo{
     color:rgb(252, 252, 252);

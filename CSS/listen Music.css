@@ -38,6 +38,10 @@
 
 body {
     scroll-behavior: smooth;
+    background-image: url('https://img1.picmix.com/output/stamp/normal/8/5/8/1/1661858_6b426.gif');
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
 }
 
 .lmsection {

@@ -68,6 +68,9 @@ body {
 
 .dheader {
     display: none;
+    background-image: url('https://lh3.googleusercontent.com/proxy/fR8yVcJzdcF8MpJHM42dm3v2EDPdraGcBJzPqGnxXV2d4oiiiaajTkPsCaJAeQSGWkcGL6O3mrw2Zj1MjkaZFUwr2bWuCk4l419AAloyfExkIQAYbUoxlZN_eNdq3s6ioGie5WYXY-9irrfgst0t4tdl9Y-gX8UsaRxONCxyp-NJCQ');
+    background-repeat: repeat;
+    width: 100%;
     /*justify-content:space-around;*/
     /* scroll-behavior: smooth; */
     /* flex-wrap: wrap; */
