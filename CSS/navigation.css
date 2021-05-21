@@ -16,10 +16,26 @@ body {
 
 /* body  */
 
+
+
+[data-aos] {
+    pointer-events: none;
+}
+[data-aos].aos-animate {
+    pointer-events: auto;
+}
+.aos-fix[data-aos][data-aos].aos-animate {
+    transform: unset;
+}
+
+
+
+
 /* header */
 /*header phone*/
 .dheader {
     display: none;
+    
 }
 
 /*header phone*/
@@ -47,7 +63,7 @@ body {
 }
 .header {
     display: flex;
-    position:sticky;
+    position:fixed;
     top: 0px;
     width: 100%;
     align-items: center;
@@ -56,6 +72,20 @@ body {
     height: 50px;
     color: var(--navFontColour);
 }
+/* animation */
+.header {
+    width: 100%;
+    /* position: sticky; */
+    z-index: 1;
+}
+.header [data-aos] {
+    pointer-events: none;
+}
+.header [data-aos].aos-animate {
+    pointer-events: auto;
+}
+
+/* animation */
 
 .navmenu ul {
     display: flex;
@@ -130,11 +160,21 @@ body {
 /* Dropdown content (hidden by default) */
 .dropdown-content {
     display: none;
-    position: absolute;
+    position:absolute;
     background-color: var(--navBackgroundColour);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(141, 138, 138, 0.11);
-    z-index: 1;
+    z-index: 4;
+}
+.dropdown-content {
+    z-index: 4;
+    background-color: black;
+}
+.dropdown-content [data-aos] {
+    pointer-events: none;
+}
+.dropdown-content [data-aos].aos-animate {
+    pointer-events: auto;
 }
 
 /* Links inside the dropdown */

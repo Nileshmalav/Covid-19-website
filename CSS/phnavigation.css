@@ -41,11 +41,22 @@ header {
     background-color: var(--navBackgroundColour);
     display: flex;
     
-    position: sticky;
+    position: fixed;
     top: 0px;
     width: 100%;
     height: 50px;
     justify-content: space-between;
+}
+.dNavVisible{
+    width: 100%;
+    /* position: sticky; */
+    z-index: 1;
+}
+.dNavVisible [data-aos] {
+    pointer-events: none;
+}
+.dNavVisible [data-aos].aos-animate {
+    pointer-events: auto;
 }
 
 .dlogo {
