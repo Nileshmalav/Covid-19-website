@@ -1,0 +1,89 @@
+
+#covidInfo {
+    background-color: white;
+}
+#covidInfo a{
+    color: black;
+}
+
+#covidInfo:hover {
+    background-color: red;
+}
+
+#pdcovidInfo:hover {
+    background-color: red;
+}
+
+#pdcovidInfo {
+    background-color: white;
+}
+#pdcovidInfo a{
+    color: black;
+}
+
+/* body{
+
+} */
+section h1{
+    text-align:center;
+    padding:10px;
+    color:darkblue;
+    font-size:3rem
+
+
+}
+section p{
+    text-align:center;
+    padding:20px;
+    font-size:17px;
+    font-family: 'Varela Round', sans-serif;
+}
+section h2{
+    padding:10px;
+    color:darkviolet;
+    font-size:2rem;
+
+}
+section h3{
+    padding:15px;
+    color:blue;
+    font-size:1.5rem;
+}
+section h4{
+    padding:15px;
+    font-family: 'Asap', sans-serif;
+
+}
+section button{
+    background-color:black;
+    margin:15px;
+    padding:10px;
+    border-radius:5px ;
+    border:2px solid black;
+}
+section button>a{
+    color:white;
+    padding:10px 10px;
+
+    font-size:20px;
+    text-decoration:none;
+}
+section button:hover{
+    background-color:white;
+    color:black;
+}
+section button>a:hover{
+    font-size: 22px;
+    color:black;
+    }
+section li{
+    padding: 10px 5px;
+    margin:0px 30px;
+    font-family: 'Asap', sans-serif;
+}
+section p>a{
+    text-decoration:none;
+}
+section p>a:hover{
+     text-decoration:underline;
+ }

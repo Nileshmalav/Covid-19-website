@@ -7,13 +7,18 @@
     background-color: red;
 }
 
-#pplagam {
-    background-color: rgb(15, 160, 15);
-}
-
 #pplagam:hover {
     background-color: red;
 }
+
+#pplagam {
+    background-color: white;
+}
+#pplagam a{
+    color: black;
+}
+
+
 
 /* navigation */
 
@@ -25,9 +30,9 @@
 /* section  */
 body {
     scroll-behavior: smooth;
-    background-image: url('https://img1.picmix.com/output/stamp/normal/8/5/8/1/1661858_6b426.gif');
+    background-image: url('../images/back.gif');
     background-repeat: repeat;
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
 }
 
@@ -39,6 +44,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.671);
 }
 
 @media (min-width:1150px) {

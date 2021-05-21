@@ -1,10 +1,9 @@
 /* navigation */
 #lismus {
-    background-color: rgb(15, 160, 15);
-}
+    background-color: white;
+    color: black;
+    border:1px solid black;
 
-#plismus {
-    background-color: rgb(15, 160, 15);
 }
 
 #plismus:hover {
@@ -12,13 +11,26 @@
 }
 
 #lismus:hover {
-    background-color: green;
+    background-color: rgba(3, 253, 3, 0.75);
 }
 
 #more {
-    background-color: rgb(199, 90, 0);
+    background-color: white;
+    color:black;
+    
+}
+#more button{
+    color:black;
 
 }
+#plismus {
+    background-color: white;
+}
+#plismus a{
+    color: black;
+}
+
+
 
 /* navigation */
 
@@ -38,7 +50,7 @@
 
 body {
     scroll-behavior: smooth;
-    background-image: url('https://img1.picmix.com/output/stamp/normal/8/5/8/1/1661858_6b426.gif');
+    background-image: url('../images/back.gif');
     background-repeat: repeat;
     width: 100%;
     height: 100%;
@@ -47,9 +59,8 @@ body {
 .lmsection {
 
     text-align: center;
-    /* padding: 30px 20px; */
     flex-wrap: wrap;
-    /* display: flex; */
+    background-color: rgba(255, 255, 255, 0.671);
     align-items: center;
     flex-direction: column;
     border: 2px solid gray;
