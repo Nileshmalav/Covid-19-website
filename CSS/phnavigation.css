@@ -278,6 +278,10 @@ body {
     display: flex;
     align-items: center;
 }
+.footerimg a :hover{
+    text-decoration: none;
+    color:rgb(116, 116, 117);
+}
 @media(max-width:450px){
     .footerimg{
         justify-content: space-between;
