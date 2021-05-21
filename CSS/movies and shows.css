@@ -22,6 +22,7 @@
     background-color: white;
     color:black;
     
+    
 }
 #more button{
     color:black;
@@ -46,7 +47,7 @@ body {
     background-repeat: repeat;
     width: 100%;
     height: 100%;
-    
+    overflow-x:hidden;
 }
 
 .lmsection {
@@ -59,6 +60,8 @@ body {
     flex-direction: column;
     font-family: 'Pattaya', sans-serif;
     background-color: rgba(255, 255, 255, 0.671);
+    overflow-x:hidden;
+    /* z-index: -1; */
 
 }
 
@@ -87,14 +90,17 @@ body {
 
 .lmh1 {
     grid-area: lmh1;
+    overflow-x:hidden;
 }
 
 .secimg {
     grid-area: secimg;
+    overflow-x:hidden;
 }
 
 .lmbtn {
     grid-area: lmbtn;
+    overflow-x:hidden;
 }
 
 .lmsection img {
@@ -102,6 +108,7 @@ body {
     padding: 10%;
     /* height:33%; */
     width: 75%;
+    overflow-x:hidden;
     /* width:auto; */
 }
 
@@ -114,6 +121,7 @@ body {
     /* font-size: 30px; */
     background-color: red;
     cursor: pointer;
+    overflow-x:hidden;
 
 }
 
@@ -121,55 +129,67 @@ body {
     font-size: 35px;
     text-decoration: none;
     color: white;
+    overflow-x:hidden;
 
 
 }
 
 #lmsection1 .lmbtn {
     background-color: blue;
+    overflow-x:hidden;
 }
 
 #lmsection2 .lmbtn {
     background-color: red;
+    overflow-x:hidden;
 }
 
 #lmsection3 .lmbtn {
-    background-color: red
+    background-color: red;
+    overflow-x:hidden;
 }
 
 #lmsection4 .lmbtn {
-    background-color: rgb(0, 153, 255)
+    background-color: rgb(0, 153, 255);
+    overflow-x:hidden;
 }
 
 #lmsection5 .lmbtn {
-    background-color: rgb(46, 4, 161)
+    background-color: rgb(46, 4, 161);
+    overflow-x:hidden;
 }
 
 #lmsection6 .lmbtn {
-    background-color: red
+    background-color: red;
+    overflow-x:hidden;
 }
 
 #lmsection7 .lmbtn {
-    background-color: rgb(0, 153, 255)
+    background-color: rgb(0, 153, 255);
+    overflow-x:hidden;
 }
 
 #lmsection8 .lmbtn {
-    background-color: green
+    background-color: green;
+    overflow-x:hidden;
 }
 
 #lmsection9 .lmbtn {
-    background-color: blue
+    background-color: blue;
+    overflow-x:hidden;
 }
 
 .lmbtn a:hover {
     color: rgb(243, 239, 3);
     font-size: 40px;
+    overflow-x:hidden;
 }
 
 
 .lmh1 {
     font-size: 2.8rem;
     font-family: 'Pattaya', sans-serif;
+    overflow-x:hidden;
 }
 
 .lmh0 {
@@ -178,6 +198,7 @@ body {
     text-align: center;
     color: rgb(153, 0, 255);
     font-family: 'Pattaya', sans-serif;
+    overflow-x:hidden;
 }
 
 .lmh-1 {
@@ -186,6 +207,7 @@ body {
     text-align: center;
     color: rgb(1, 1, 63);
     font-family: 'Pattaya', sans-serif;
+    overflow-x:hidden;
 }
 
 /* section  */

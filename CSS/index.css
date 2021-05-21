@@ -21,19 +21,22 @@
 #phome a {
     color: black;
 }
-
+html{
+    width: 100%;
+    overflow-x: hidden;
+}
 
 body {
     /* scroll-behavior: smooth; */
     background-image: url('../images/back.gif');
     background-repeat: repeat;
-    overflow-x: hidden;
-    width: auto;
-    z-index: -1;
-    /* height: 100%; */
+    overflow-x:hidden;
+    scroll-behavior: smooth;
 
 }
-
+body>div{
+    width:100%;
+}
 
 /* section */
 .section {
