@@ -1,29 +1,41 @@
 #covidInfo {
     background-color: white;
+    overflow-x: hidden;
+
 }
 
 #covidInfo a {
     color: black;
+    overflow-x: hidden;
+
 }
 
 #covidInfo:hover {
     background-color: red;
+    overflow-x: hidden;
+
 }
 
 #pcovidInfo:hover {
     background-color: red;
+    overflow-x: hidden;
+
 }
 
 #pcovidInfo {
     background-color: white;
+    overflow-x: hidden;
+
 }
 
 #pcovidInfo a {
     color: black;
+    overflow-x: hidden;
+
 }
 
 * {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 body {
@@ -31,6 +43,10 @@ body {
     overflow-x: hidden;
 }
 
+section{
+    overflow-x: hidden;
+
+}
 section h1 {
     text-align: center;
     padding: 10px;
@@ -45,29 +61,29 @@ section p {
     text-align: center;
     padding: 20px;
     font-size: 17px;
-    overflow-x: hidden;
     font-family: 'Varela Round', sans-serif;
+    overflow-x: hidden;
 }
 
 section h2 {
     padding: 10px;
     color: darkviolet;
-    overflow-x: hidden;
     font-size: 2rem;
+    overflow-x: hidden;
 
 }
 
 section h3 {
     padding: 15px;
     color: blue;
-    overflow-x: hidden;
     font-size: 1.5rem;
+    overflow-x: hidden;
 }
 
 section h4 {
     padding: 15px;
-    overflow-x: hidden;
     font-family: 'Asap', sans-serif;
+    overflow-x: hidden;
 
 }
 
@@ -76,8 +92,8 @@ section button {
     margin: 15px;
     padding: 10px;
     border-radius: 5px;
-    overflow-x: hidden;
     border: 2px solid black;
+    overflow-x: hidden;
 }
 
 section button>a {
@@ -85,8 +101,8 @@ section button>a {
     padding: 10px 10px;
 
     font-size: 20px;
-    overflow-x: hidden;
     text-decoration: none;
+    overflow-x: hidden;
 }
 
 section button:hover {
@@ -97,29 +113,33 @@ section button:hover {
 
 section button>a:hover {
     font-size: 22px;
-    overflow-x: hidden;
     color: black;
+    overflow-x: hidden;
 }
 
 section li {
     padding: 10px 5px;
     margin: 0px 30px;
-    overflow-x: hidden;
     font-family: 'Asap', sans-serif;
+    overflow-x: hidden;
 }
 
 section p>a {
-    overflow-x: hidden;
     text-decoration: none;
+    overflow-x: hidden;
 }
 
 section p>a:hover {
-    overflow-x: hidden;
     text-decoration: underline;
+    overflow-x: hidden;
 }
 
 section img {
     width: 100%;
     height: auto;
     overflow: hidden;
+}
+section a{
+    overflow-x: hidden;
+
 }
