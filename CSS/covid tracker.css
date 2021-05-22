@@ -1,0 +1,33 @@
+#covidTracker {
+    background-color: white;
+}
+
+#covidTracker a {
+    color: black;
+}
+
+#covidTracker:hover {
+    background-color: red;
+}
+
+#pcovidTracker:hover {
+    background-color: red;
+}
+
+#pcovidTracker {
+    background-color: white;
+}
+
+#pcovidTracker a {
+    color: black;
+}
+
+
+
+
+h1{
+    color: blue;
+    padding: 20px;
+    text-align: center;
+
+}
