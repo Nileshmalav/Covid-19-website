@@ -14,9 +14,9 @@
 /* body  */
 body {
     margin: 0px;
-    overflow-x:hidden;
+    overflow-x: hidden;
     /* width:100%; */
-    
+
 }
 
 /* body  */
@@ -24,7 +24,9 @@ body {
 
 /* header */
 header {
-    z-index:1;}
+    z-index: 1;
+}
+
 .dNavVisible::before {
     content: "";
     background-color: var(--navBackgroundColour);
@@ -40,21 +42,24 @@ header {
 .dNavVisible {
     background-color: var(--navBackgroundColour);
     display: flex;
-    
+
     position: fixed;
     top: 0px;
     width: 100%;
     height: 50px;
     justify-content: space-between;
 }
-.dNavVisible{
+
+.dNavVisible {
     width: 100%;
     /* position: sticky; */
     z-index: 1;
 }
+
 .dNavVisible [data-aos] {
     pointer-events: none;
 }
+
 .dNavVisible [data-aos].aos-animate {
     pointer-events: auto;
 }
@@ -62,7 +67,7 @@ header {
 .dlogo {
     padding: 2px 20px;
     font-size: 35px;
-    color:white;
+    color: white;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -98,6 +103,7 @@ header {
     align-items: center;
     display: flex;
     justify-content: space-around;
+    overflow-x: visible;
 }
 
 .dnmenu {
@@ -106,6 +112,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    overflow-x: visible;
 
 }
 
@@ -115,6 +122,7 @@ header {
     flex-direction: column;
     align-items: center;
     list-style: none;
+    overflow-x: visible;
 
 
 }
@@ -136,6 +144,8 @@ header {
     position: relative;
     transition: background .2s ease-out;
     width: 25px;
+    overflow-x: visible;
+
 }
 
 .menu-icon .navicon:before,
@@ -148,27 +158,39 @@ header {
     position: absolute;
     transition: all .2s ease-out;
     width: 100%;
+    overflow-x: visible;
+
 }
 
 .menu-icon .navicon:before {
     top: 10px;
+    overflow-x: visible;
+
 }
 
 .menu-icon .navicon:after {
     top: -10px;
+    overflow-x: visible;
+
 }
 
 /*menubar icon*/
 .menu-btn {
     display: none;
+    overflow-x: visible;
+
 }
 
 .menu-btn:checked~.menu {
     max-height: 300px;
+    overflow-x: visible;
+
 }
 
 .menu-btn:checked~.menu-icon .navicon {
     background: transparent;
+    overflow-x: visible;
+
 }
 
 .menu-btn:checked~.dheader {
@@ -178,19 +200,27 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: visible;
+
 }
 
 .menu-btn:checked~.menu-icon .navicon:before {
     transform: rotate(-45deg);
+    overflow-x: visible;
+
 }
 
 .menu-btn:checked~.menu-icon .navicon:after {
     transform: rotate(45deg);
+    overflow-x: visible;
+
 }
 
 .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
 .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
     top: 0;
+    overflow-x: visible;
+
 }
 
 
@@ -261,60 +291,81 @@ header {
 
 
 /* footer  */
-.footer{
+.footer {
     bottom: 0px;
     left: 0px;
     background-color: rgba(29, 29, 29, 0.94);
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width:100%;
-    margin:auto;
-    align-items:center;
-    text-align:center;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
     margin: auto;
     background-image: url(../images/header.png);
     background-repeat: repeat;
+    overflow: hidden;
+
 }
-.footerimg{
+
+.footerimg {
     justify-content: space-between;
-    align-items:center;
-    padding:1% 5%;
+    align-items: center;
+    padding: 1% 5%;
     display: flex;
     align-items: center;
+    overflow: hidden;
+
 }
-.footerimg a :hover{
+
+.footerimg a :hover {
     text-decoration: none;
-    color:rgb(116, 116, 117);
+    color: rgb(116, 116, 117);
+    overflow: hidden;
+
 }
-@media(max-width:450px){
-    .footerimg{
+
+@media(max-width:450px) {
+    .footerimg {
         justify-content: space-between;
-        align-items:center;
-        padding:1% 5%;
+        align-items: center;
+        padding: 1% 5%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        overflow: hidden;
+
     }
 
 
 }
-.footerimg a{
+
+.footerimg a {
     text-decoration: none;
     align-items: center;
-}
-.footerimg img{
-    height:120px;
+    overflow: hidden;
 
 }
-.footerimgtext{
+
+.footerimg img {
+    height: 120px;
+    overflow: hidden;
+
+
+}
+
+.footerimgtext {
     font-size: 30px;
     color: #6c6868;
+    overflow: hidden;
+
 
 }
-.fdiv{
-    padding:10px;
-    font-size:25px;
+
+.fdiv {
+    padding: 10px;
+    font-size: 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -322,13 +373,15 @@ header {
     text-align: center;
     color: white;
     padding-bottom: 0px;
-    margin-bottom:0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+
 }
 
-.headerbox{
-    width:100%;
-    height:50px;
-    display:block;
+.headerbox {
+    width: 100%;
+    height: 50px;
+    display: block;
     position: relative;
 }
 
