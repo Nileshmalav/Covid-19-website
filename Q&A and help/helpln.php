@@ -90,8 +90,9 @@ table, th, td {
     <box class="headerbox"></box>
     <!-- header -->
 
+<img src="./images/image.png" style="width:30%;float:right;position:fixed;margin-left:70%;z-index:-1;">
 
-<table>
+<table style="width:70%;">
     <tr><th>Phone number</th><th>Tags</th></tr>
 <?php
             $servername = "localhost";
