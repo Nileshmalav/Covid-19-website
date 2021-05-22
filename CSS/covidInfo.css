@@ -10,15 +10,15 @@
     background-color: red;
 }
 
-#pdcovidInfo:hover {
+#pcovidInfo:hover {
     background-color: red;
 }
 
-#pdcovidInfo {
+#pcovidInfo {
     background-color: white;
 }
 
-#pdcovidInfo a {
+#pcovidInfo a {
     color: black;
 }
 
