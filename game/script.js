@@ -3,7 +3,7 @@ const foodSound = new Audio('food.mp3');
 const gameOverSound = new Audio('gameover.mp3');
 const moveSound = new Audio('move.mp3');
 const musicSound = new Audio('music.mp3');
-let speed = 7;
+let speed = 5;
 let score = 0;
 let lastPaintTime = 0;
 let snakearray = [
@@ -45,11 +45,12 @@ function gameEngine(){
         gameOverSound.play();
         musicSound.pause();
         initial =  {x: 0, y: 0}; 
-        alert("Game Over. Press any key to play again!");
+        alert("Game Over !");
         snakearray = [{x: 15, y: 15}];
         musicSound.play();
         scoreBox.innerHTML = "Score:0 "
-        score = 0; 
+        score = 0;
+        speed=5;
     }
 
     // If you have eaten the food, increment the score and regenerate the food
@@ -95,17 +96,17 @@ function gameEngine(){
     box.appendChild(foodElement);
 
     // speed
-    if (score > 3 && score <= 7) {
-      speed=10;  
+    if (score > 2 && score <= 5) {
+      speed=8;  
     }
-    if (score > 7 && score <= 10) {
-      speed=13;  
+    if (score > 5 && score <= 8) {
+      speed=11;  
     }
-    if (score > 10 && score <= 15) {
-      speed=16;  
+    if (score > 8 && score <= 15) {
+      speed=15;  
     }
     if (score > 15 && score <= 20) {
-      speed=19;  
+      speed=18;  
     }
     if (score > 20 ) {
       speed=20;  
