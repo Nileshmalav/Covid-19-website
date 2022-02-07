@@ -1,38 +1,32 @@
-#covidInfo {
-    background-color: white;
-    overflow-x: hidden;
-
-}
-
 #covidInfo a {
-    color: black;
+    color: rgb(3, 204, 194);
+
     overflow-x: hidden;
 
 }
 
-#covidInfo:hover {
-    background-color: red;
+#covidInfo a:hover {
+    color: rgb(226, 188, 0);
+
     overflow-x: hidden;
 
 }
 
 #pcovidInfo:hover {
-    background-color: red;
+    background-color: rgb(0, 140, 255);
+
+
     overflow-x: hidden;
 
 }
 
 #pcovidInfo {
-    background-color: white;
+    background-color: rgb(0, 4, 255);
+
     overflow-x: hidden;
 
 }
 
-#pcovidInfo a {
-    color: black;
-    overflow-x: hidden;
-
-}
 
 * {
     /* overflow-x: hidden; */

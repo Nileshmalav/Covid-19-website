@@ -1,25 +1,24 @@
-#covidTracker {
-    background-color: white;
-}
 
 #covidTracker a {
-    color: black;
+    color: rgb(3, 204, 194);
 }
 
-#covidTracker:hover {
-    background-color: red;
+
+#covidTracker a:hover{
+    color: rgb(226, 188, 0);
+
 }
 
 #pcovidTracker:hover {
-    background-color: red;
+    background-color: rgb(0, 140, 255);
 }
 
 #pcovidTracker {
-    background-color: white;
+    background-color: rgb(0, 4, 255);
 }
 
 #pcovidTracker a {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 

@@ -2,7 +2,7 @@
 * {
     font-family: 'Girassol', cursive;
     --navBackgroundColour: rgb(3, 65, 3);
-    --navBackgroundColour: rgba(90, 36, 36, 0.87);
+    --navBackgroundColour: rgba(17, 22, 36, 0.87);
     --navFontColour: white;
 
 }
@@ -121,7 +121,8 @@ body {
 }
 
 .right button:hover {
-    background-color: blue;
+    background-color: rgb(0, 183, 255);
+    border: 2px solid skyblue;
 }
 
 .right button a:hover {
@@ -161,10 +162,10 @@ body {
 
 /* Add a red background color to navbar links on hover */
 
-.navitem:hover,
+.navitem a:hover,
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-    background-color: red;
+    color: rgb(230, 207, 1);
 }
 
 /* Dropdown content (hidden by default) */
@@ -321,7 +322,8 @@ body {
     margin:5px;
 }
 .Middle a:hover {
-    color: red;
+    color: rgb(226, 188, 0);
+
     overflow: hidden;
 
 }
